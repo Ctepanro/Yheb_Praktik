@@ -1,11 +1,11 @@
 /*--- шапка ---*/
 @font-face{
     font-family: Poppins-Bold;
-    src: url("/Hrift/FONT/Poppins-Bold.woff");
+    src: url("Hrift/FONT/Poppins-Bold.woff");
 }
 @font-face{
     font-family: Poppins-Regular;
-    src: url("/Hrift/FONT/Poppins-Regular.woff"); 
+    src: url("Hrift/FONT/Poppins-Regular.woff"); 
 }
 *{
     padding: 0;
