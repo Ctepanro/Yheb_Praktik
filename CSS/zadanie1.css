@@ -1,0 +1,612 @@
+/*--- шапка ---*/
+@font-face{
+    font-family: Poppins-Bold;
+    src: url("/шрифты/FONT/Poppins-Bold.woff");
+}
+@font-face{
+    font-family: Poppins-Regular;
+    src: url("/шрифты/FONT/Poppins-Regular.woff"); 
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins-Bold;
+}
+/* бургер начало*/
+.hamburger {
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-11px, 6px);
+} 
+.active .line:nth-child(2) {
+    opacity: 0;
+}
+.active .line:nth-child(3) {
+    transform: rotate(45deg) translate(-11px, -10px);
+}
+.hamburger .line {
+    width: 40px;
+    height: 4px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+header .conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+/* бургер конец*/
+.conteiner nav .menu {
+    padding-right: 90px;
+    display: flex;
+}
+.conteiner{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.conteinerssss{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: black;
+}
+.conteinerooossss{
+    max-width: 1110px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: black;
+}
+.conteinersos{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: black;
+    text-align: center;
+}
+.conteiner_blue2{
+    max-width: 1110px;
+    margin: 0 auto;
+    background: #161D2F;
+    color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* buttons */
+.button_blue {
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(#3043A9, #1F629F);
+    color: #ffffff;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+}
+.blue1 {
+    width: 157px;
+    height: 53px;
+}
+.blue2 {
+    width: 161px;
+    height: 57px;
+}
+.button_white{
+    border-radius: 30px;
+    background: #161D2F;
+    padding: 16px 40px 16px 40px;
+    color: #ffffff;
+    font-family: Poppins-Regular;
+}
+
+/* h1, h2  */
+h1 {
+    font-size: 62px;
+    padding-bottom: 20px;
+}
+h2 {
+    font-family: Poppins-Regular;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.text-center {
+    text-align: center;
+}
+
+/* header  */
+header, .odin {
+    background: #161D2F;
+    color: #ffffff;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    color: #ffff;
+}
+header nav p{
+    padding-right: 165px;
+}
+.spisok a{
+    color: #ffffff;
+    font-family: Poppins-Regular;
+}
+nav p{
+    font-size: 24px;
+}
+.spisok{
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+/*--- первый блок ---*/
+.odin{
+    color: #ffffff;
+}
+.cont-txt{
+    background: #161D2F;
+    text-align: center;
+}
+.w1{
+    position: relative;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+.w2{
+    position: absolute;
+    left: 490px;
+    top: 250px;
+}
+.one{
+    font-size: 14px;
+    padding-top: 67px;
+    padding-bottom: 10px;
+    font-family: Poppins-Regular;
+}
+.tre{
+    font-size: 15px;
+    max-width: 689px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: Poppins-Regular;
+}
+.buttono{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*--- второй блок ---*/
+.dva{
+    padding-bottom: 100px;
+}
+.dva .slider div .z1{
+    max-width: 340px;
+    height: 260px;
+    padding-top: 30px;
+}
+.dva .slider{
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    gap: 30px;
+}
+.sto{
+    text-align: center;
+    padding-top: 100px;
+    font-family: Poppins-Regular;
+}
+.slider .st1,.st2{
+    position: absolute;
+    top: 42%;
+}
+.st1 {
+    left: -65px;
+}
+.st2 {
+    right: -72px;
+}
+.six{
+    font-size: 40px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    padding-bottom: 95px;
+}
+.im1,.im2,.im3{
+    padding-left: 10px;
+}
+.hc14{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+.hc144{
+    font-family: Poppins-Regular;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.ch141{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    padding-bottom: 10px;
+}
+.byb{
+    font-size: 30px;
+    padding-top: 12px;
+}
+.c14ch{
+    font-family: Poppins-Regular;
+    color: #3043A9;
+}
+.dva .conteinerssss div{
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+/*--- второй блок ---*/
+.dva{
+    padding-bottom: 100px;
+}
+.dva .slider div .z1{
+    max-width: 340px;
+    height: 260px;
+    padding-top: 30px;
+    object-fit: cover;
+}
+.dva .slider{
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    gap: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+.sto{
+    text-align: center;
+    padding-top: 100px;
+    font-family: Poppins-Regular;
+}
+.slider .prev-button,.next-button{
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    color: #000000;
+}
+.prev-button {
+    left: -65px;
+}
+.next-button {
+    right: -65px;
+}
+.six{
+    font-size: 40px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    padding-bottom: 95px;
+}
+.im1,.im2,.im3{
+    padding-left: 10px;
+}
+.hc14{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+.hc144{
+    font-family: Poppins-Regular;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.ch141{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    padding-bottom: 10px;
+}
+.byb{
+    font-size: 30px;
+    padding-top: 12px;
+}
+.c14ch{
+    font-family: Poppins-Regular;
+    color: #3043A9;
+}
+.dva .conteinerssss div{
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+/*--- третий блок ---*/
+.thre{
+    padding-bottom: 100px;
+}
+.o1{
+    font-family: Poppins-Regular;
+    padding-bottom: 10px;
+}
+.O2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.o3{
+    font-family: Poppins-Regular;
+    padding-bottom: 30px;
+}
+.o33{
+    font-family: Poppins-Regular;
+    padding-bottom: 30px;
+}
+.pid{
+    max-width: 445px;
+    height: 334px;
+    padding-top: 105px;
+}
+.thre .conteinerssss{
+    display: flex;
+    max-width: 1110px;
+}
+
+/*--- четвертый блок ---*/
+.yu{
+    padding-top: 70px;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+.heture,.heture .conteinerssss{
+    color: #ffffff;
+    background: linear-gradient( #161D2F 60%, #ffffff 20%);
+}
+.heture h2{
+    padding-bottom: 30px;
+}
+.pol{
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    justify-content: center;
+}
+.pol .conteinersos{
+    border-radius: 30px;
+    max-width: 350px;
+    height: 682px;
+    box-shadow: 5px 5px 5px 5px #c6e2ff33;
+}
+.the{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.o32{
+    font-size: 32px;
+}
+.vba{
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding-bottom: 10px;
+}
+.o20{
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding-top: 15px;
+}
+.tohh,.tohh2,.tohh3{
+    display: flex;
+    box-sizing: border-box;
+}
+.toh{
+    display: flex;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 82px;
+}
+.toh img{
+    padding-right: 10px;
+}
+.toh div p{
+    font-family: Poppins-Regular;
+}
+.tohh .o32{
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+.conteinersos .tohh{
+    padding-top: 150px;
+}
+.tohh2,.tohh3 .o32{
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+.conteinersos .tohh2{
+    padding-top: 120px;
+}
+.conteinersos .tohh3{
+    padding-top: 88px;
+}
+
+
+/*--- пятый блок ---*/
+.paterka{
+    padding-top: 100px;
+    max-width: 1440px;
+}
+.mo1{
+    font-size: 14px;
+    font-family: Poppins-Regular;
+}
+.mo2{
+    font-size: 40px;
+    max-width: 445px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.per1{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    left: 415px;
+}
+.per1 div{
+    display: flex;
+    justify-content: center;
+}
+.per2{
+    display: flex;
+    justify-content: center;
+}
+.tyr1{
+    text-align: center;
+    padding: 60px;
+    font-size: 48px;
+    padding-top: 105px;
+    padding-right: 60px;
+}
+.create-line {
+    padding-bottom: 70px;
+    padding-top: 96px;
+    max-width: 5px;
+    height: 70px;
+    border-left: 1px solid #686868;
+}
+.io{
+    font-size: 18px;
+    font-family: Poppins-Regular;
+}
+.pervoe1 {
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    max-width: 540px;
+    align-items: flex-start;
+}
+.vtoroe1,.vtoroe2{
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+.rt1{
+    font-size: 30px;
+}
+.rt2{
+    font-family: Poppins-Regular;
+}
+.iiii1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.iiii2{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+/*--- шестой блок ---*/
+.hesterka{
+    padding-top: 156px;
+    padding-bottom: 100px;
+}
+.rote .but-but{
+    padding-right: 55px;
+    border-color: #ffffff;
+}
+.but-but{
+    border-radius: 30px;
+    background: #161D2F;
+    padding: 16px 40px 16px 40px;
+    color: #ffffff;
+    font-family: Poppins-Regular;
+}
+::placeholder{
+    color: #ffffff;
+}
+.conteiner_blue2 .rt1{
+    padding-top: 105px;
+    padding-left: 50px;
+}
+.rote{
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-bottom: 105px;
+    display: flex;
+    gap: 30px;
+}
+.imgf{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+}
+.ero1{
+    padding-bottom: 10px;
+}
+.n1{
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.n2,.n4{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.n3{
+    padding-right: 5px;
+}
+
+/*--- подвал ---*/
+footer{
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+}
+.p1 .rt1{
+    padding-bottom: 5px;
+}
+.p1 {
+    max-width: 445px;
+}
+footer div p {
+    padding-bottom: 25px;
+}
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer div ul a {
+    font-family: Poppins-Regular;
+    color: black
+}
+.dtd{
+    font-family: Poppins-Regular;
+    padding-bottom: 10px;
+}
+.p5 p{
+    text-align: center;
+    padding-top: 42px;
+    font-family: Poppins-Regular;
+}
